@@ -1,4 +1,4 @@
-class FieldsController < APIController
+class FieldsController < ApiController
   before_action :set_field, only: [:show, :update, :destroy]
 
   # GET /fields
@@ -50,4 +50,4 @@ class FieldsController < APIController
     def field_params
       params.require(:field).permit(:title, :description, :steps, :source)
     end
-end
+

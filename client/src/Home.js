@@ -62,21 +62,23 @@ class App extends Component
           : <Container textAlign='center'>No fields found.</Container>
         }
         <Divider section />
-        {jobs && jobs.length
+        {fields && fields.length
           ? <Container>
           {Object.keys(jobs).map((key) => {
             return <div textAlign='left' border='20px solid black'>
               {<hr></hr>}
-              {jobs[key].title && <h2>{jobs[key].title}</h2>}
-              {jobs[key].company && <h4>@ {jobs[key].company}</h4>}
-              {jobs[key].description && <p>{jobs[key].description}</p>}
-              {jobs[key].apply && <Button basic size='tiny' color='blue' href={jobs[key].apply}>More info</Button>}
+              {field.jobs[key].title && <h2>{field.jobs[key].title}</h2>}
+              {field.jobs[key].company && <h4>@ {field.jobs[key].company}</h4>}
+              {field.jobs[key].description && <p>{field.jobs[key].description}</p>}
+              {field.jobs[key].location && <Button basic size='tiny' color='blue' href={jobs[key].apply}>More info</Button>}
               {<hr></hr>}
             </div>
           })}
           </Container>
           : <Container textAlign='center'>No jobs found.</Container>
         }
+         </Container>
+      : <Container text>
         <Dimmer active inverted>
           <Loader content='Loading' />
         </Dimmer>

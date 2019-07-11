@@ -69,28 +69,19 @@ class App extends Component
             }
             {field.jobs &&
               <Segment.Group>
-                {field.jobs.map((key) => {
-
-                return <div textAlign='left' border='20px solid black'>
-                     {job[i].title && < h3 > {job[i].title} < /h3>
-                     }
-                     {job[i].description && < p > {job[i].description} < /p>
-                     }
-                     {job[i].company && < p > {job[i].company} < /p>
-                     }
-                     {job[i].location && < p > {job[i].location} < /p>
-                     }
-                     {job[i].link && < p > {job[i].link} < /p>
-                     }   </div>
-                    }
-                    )}
-                    }
+                {field.jobs.map((jobs,i)=> <Segment key={i}
+                {jobs.title}
+                {jobs.description} 
+                {jobs.company}
+                {jobs.location}
+                {jobs.link}
+                )}
               </Segment.Group>
             }
             {field.steps && <p>{field.steps}</p>}
             {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>}
           </Container>
-        } }
+        }
       </Container>
       : <Container text>
         <Dimmer active inverted>

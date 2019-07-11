@@ -78,7 +78,7 @@ class App extends Component
                 {job[i].location && <p> {job[i].location}</p> }
                     {job[i].link && < p > {job[i].link} < /p> }
                     </div>
-                        < /Segment>)}
+                        </Segment>)}
                     }
               </Segment.Group>
             } } } }})}

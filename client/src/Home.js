@@ -65,24 +65,28 @@ class App extends Component
         {field &&
           <Container>
             <Header as='h2'>{field.title}</Header>
-            {field.description && <p>{field.description}</p>}
+            {field.description && <p>{field.description}</p>
+            }
             {field.jobs &&
               <Segment.Group>
                 {field.jobs.map((key) => {
 
                 return <div textAlign='left' border='20px solid black'>
-
-                {job[i].title && <h3>{job[i].title} </h3> }
-                {job[i].description && <p> {job[i].description}</p> }
-                {job[i].company && <p> {job[i].company}</p> }
-                {job[i].location && <p> {job[i].location}</p> }
-                    {
-                        job[i].link && <p > {job[i].link} </p> }
-                        </div>
-                    }}}}}})}
+                     {job[i].title && < h3 > {job[i].title} < /h3>
+                     }
+                     {job[i].description && < p > {job[i].description} < /p>
+                     }
+                     {job[i].company && < p > {job[i].company} < /p>
+                     }
+                     {job[i].location && < p > {job[i].location} < /p>
+                     }
+                     {job[i].link && < p > {job[i].link} < /p>
+                     }   </div>
+                    }
+                    )}
                     }
               </Segment.Group>
-            } } } }})}
+            }
             {field.steps && <p>{field.steps}</p>}
             {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>}
           </Container>

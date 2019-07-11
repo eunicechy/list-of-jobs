@@ -68,7 +68,7 @@ class App extends Component
             {field.description && <p>{field.description}</p>}
             {field.jobs &&
               <Segment.Group>
-                {field.jobs.map(key) => {
+                {field.jobs.map((key) => {
 
                 return <div textAlign='left' border='20px solid black'>
 
@@ -81,11 +81,11 @@ class App extends Component
                         < /Segment>)}
                     }
               </Segment.Group>
-            } } } }}
+            } } } }})}
             {field.steps && <p>{field.steps}</p>}
             {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>}
           </Container>
-        } } 
+        } }
       </Container>
       : <Container text>
         <Dimmer active inverted>

@@ -48,7 +48,7 @@ class App extends Component
           <Icon name='unordered list' circular />
           <Header.Content>
             List of Jobs
-          </Header.Content>
+          </ Header.Content>
         </Header>
         <Divider hidden section />
         {fields && fields.length
@@ -81,11 +81,11 @@ class App extends Component
                         < /Segment>)}
                     }
               </Segment.Group>
-            }
+            } } } }}
             {field.steps && <p>{field.steps}</p>}
             {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>}
           </Container>
-        }
+        } } 
       </Container>
       : <Container text>
         <Dimmer active inverted>

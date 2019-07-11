@@ -56,7 +56,7 @@ class App extends Component
             {Object.keys(fields).map((key) => {
               return <Button active={field && field.id === fields[key].id} fluid key={key} onClick={() => this.getField(fields[key].id)}>
                 {fields[key].title}
-                    {fields.jobs[key].title}
+
               </Button>
             })}
           </Button.Group>
@@ -71,7 +71,7 @@ class App extends Component
             {field.jobs &&
               <Segment.Group>
                 {field.jobs.map((job,i)=> <Segment key={i}>
-                    {job.title}
+                    <p>hello</p>
 
                 </Segment>
                 )}

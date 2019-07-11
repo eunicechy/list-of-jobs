@@ -68,7 +68,13 @@ class App extends Component
             {field.description && <p>{field.description}</p>}
             {field.jobs &&
               <Segment.Group>
-                {field.jobs.map((job, i) => <Segment key={i}>{job.description}</Segment>)}
+                {field.jobs.map(key) => <Segment key={i}>
+                {job[i].title && <h3>{job[i].title} </h3> }
+                {job[i].description && <p> {job[i].description}</p> }
+                {job[i].company && <p> {job[i].company}</p> }
+                {job[i].location && <p> {job[i].location}</p> }
+                {job[i].link && <p> {job[i].link}</p> }
+                </Segment>)}
               </Segment.Group>
             }
             {field.steps && <p>{field.steps}</p>}

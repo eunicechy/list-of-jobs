@@ -11,4 +11,4 @@ ActiveAdmin.register Job do
 #   permitted = [:permitted, :attributes]
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permit
-end 
+end

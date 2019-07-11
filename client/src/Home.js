@@ -71,7 +71,7 @@ class App extends Component
             {field.jobs &&
               <Segment.Group>
                 {field.jobs.map((job,i)=> <Segment key={i}>
-                    {job.link}
+                    {job.description}
 
                 </Segment>
                 )}

@@ -56,26 +56,26 @@ class App extends Component
             {Object.keys(fields).map((key) => {
               return <Button active={field && field.id === fields[key].id} fluid key={key} onClick={() => this.getField(fields[key].id)}>
                 {fields[key].title}
+                    {fields.jobs[key].title}
               </Button>
             })}
           </Button.Group>
           : <Container textAlign='center'>No fields found.</Container>
         }
         <Divider section />
-        {field && field.jobs.length
+        {field &&
           <Container>
             <Header as='h2'>{field.title}</Header>
             {field.description && <p>{field.description}</p>
             }
             {field.jobs &&
-
+              <Segment.Group>
                 {field.jobs.map((job,i)=> <Segment key={i}>
                     {job.title}
-                    {job.description}
 
                 </Segment>
                 )}
-
+              </Segment.Group>
             }
             {field.steps && <p>{field.steps}</p>}
             {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>}

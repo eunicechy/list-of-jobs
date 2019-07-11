@@ -70,7 +70,7 @@ class App extends Component
               {field.jobs[key].title && <h2>{field.jobs[key].title}</h2>}
               {field.jobs[key].company && <h4>{field.jobs[key].company}</h4>}
               {field.jobs[key].description && <p>{field.jobs[key].description}</p>}
-              {field.jobs[key].location && <Button basic size='tiny' color='blue' href={jobs[key].apply}>More info</Button>}
+              {field.jobs[key].link && <Button basic size='tiny' color='blue' href={field.jobs[key].link}>More info</Button>}
               {<hr></hr>}
             </div>
           })}

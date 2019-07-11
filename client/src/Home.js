@@ -75,6 +75,7 @@ class App extends Component
                 {job.company}
                 {job.location}
                 {job.link}
+                </Segment>
                 )}
               </Segment.Group>
             }

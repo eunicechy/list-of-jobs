@@ -68,14 +68,14 @@ class App extends Component
             {field.description && <p>{field.description}</p>
             }
             {field.jobs &&
-              <Segment.Group>
+
                 {field.jobs.map((job,i)=> <Segment key={i}>
                     {job.title}
                     {job.description}
 
                 </Segment>
                 )}
-              </Segment.Group>
+
             }
             {field.steps && <p>{field.steps}</p>}
             {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>}

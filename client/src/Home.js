@@ -62,7 +62,7 @@ class App extends Component
           : <Container textAlign='center'>No fields found.</Container>
         }
         <Divider section />
-        {field &&
+        {field && field.jobs.length
           <Container>
             <Header as='h2'>{field.title}</Header>
             {field.description && <p>{field.description}</p>

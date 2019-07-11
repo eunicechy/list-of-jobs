@@ -62,22 +62,31 @@ class App extends Component
           : <Container textAlign='center'>No fields found.</Container>
         }
         <Divider section />
-        {fields && fields.length
-          ? <Container>
-          {Object.keys(fields).map((key) => {
-            return <div textAlign='left' border='20px solid black'>
-              {<hr></hr>}
-              {field.jobs[key].title && <h2>{field.jobs[key].title}</h2>}
-              {field.jobs[key].company && <h4>{field.jobs[key].company}</h4>}
-              {field.jobs[key].description && <p>{field.jobs[key].description}</p>}
-              {field.jobs[key].link && <Button basic size='tiny' color='blue' href={field.jobs[key].link}>More info</Button>}
-              {<hr></hr>}
-            </div>
-          })}
+        {field &&
+          <Container>
+            <Header as='h2'>{field.title}</Header>
+            {field.description && <p>{field.description}</p>
+            }
+            {field.jobs &&
+              <Segment.Group>
+                {Object.keys(fields.jobs).map((key)=>{
+                    return {job[key].title && {job[key].title}}
+                    <p>yes</p>
+                        {job[key].description && {job[key].description}}
+                }}
+                }
+
+                </Segment>
+                )}
+              </Segment.Group>
+            }
+            {field.steps && <p>{field.steps}</p>
+            }
+            {field.source && <Button basic size='tiny' color='blue' href={field.source}>Source</Button>
+            }
           </Container>
-          : <Container textAlign='center'>No jobs found.</Container>
         }
-         </Container>
+      </Container>
       : <Container text>
         <Dimmer active inverted>
           <Loader content='Loading' />

@@ -64,11 +64,11 @@ class App extends Component
         <Divider section />
         {fields && fields.length
           ? <Container>
-          {Object.keys(jobs).map((key) => {
+          {Object.keys(fields).map((key) => {
             return <div textAlign='left' border='20px solid black'>
               {<hr></hr>}
               {field.jobs[key].title && <h2>{field.jobs[key].title}</h2>}
-              {field.jobs[key].company && <h4>@ {field.jobs[key].company}</h4>}
+              {field.jobs[key].company && <h4>{field.jobs[key].company}</h4>}
               {field.jobs[key].description && <p>{field.jobs[key].description}</p>}
               {field.jobs[key].location && <Button basic size='tiny' color='blue' href={jobs[key].apply}>More info</Button>}
               {<hr></hr>}

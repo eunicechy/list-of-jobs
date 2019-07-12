@@ -6,7 +6,7 @@ body {
 
 }
 #company{
-  color: cornflowerblue;
+  color: gray();
 }
 #descp{
   color:gray;

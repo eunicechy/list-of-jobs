@@ -72,6 +72,7 @@ class App extends Component
               <Segment.Group>
                 {field.works.map((work,i)=> <Segment key={i}>
                     {work.title}
+                    {work.description}
 
                 </Segment>
                 )}

@@ -1,3 +1,0 @@
-class JobsController < ApiController
-
-end

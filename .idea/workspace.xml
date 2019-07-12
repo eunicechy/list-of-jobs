@@ -152,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="867" />
     <option name="y" value="12" />
     <option name="width" value="1035" />
@@ -229,7 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562819967911</updated>
       <workItem from="1562819978008" duration="18313000" />
-      <workItem from="1562896270831" duration="4379000" />
+      <workItem from="1562896270831" duration="4868000" />
     </task>
     <task id="LOCAL-00001" summary="updated job.rb">
       <created>1562842284502</created>
@@ -242,7 +242,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22692000" />
+    <option name="totallyTimeSpent" value="23181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="578" y="8" width="690" height="684" extended-state="1" />
@@ -464,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/list-jobs/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="30" lean-forward="true" selection-start-line="15" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -478,6 +471,13 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/list-jobs/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="30" lean-forward="true" selection-start-line="15" selection-end-line="30" />
         </state>
       </provider>
     </entry>

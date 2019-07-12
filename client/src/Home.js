@@ -72,7 +72,7 @@ class App extends Component
               <Segment.Group>
                 {field.works.map((work,i)=> <Segment key={i}>
                     {work.title}
-                    <p style="color:aliceblue;">{work.company} </p>
+                    <p>{work.company} </p>
                     <p>{work.description} </p>
                     <p>{work.location} </p>
                     <p>{work.link} </p>

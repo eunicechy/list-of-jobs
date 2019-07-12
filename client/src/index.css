@@ -5,8 +5,12 @@ body {
 
 
 }
+a{
+  background-color: dodgerblue;
+  color: #F7F7F7;
+}
 #company{
-  color: gray();
+  color:cornflowerblue;
 }
 #descp{
   color:gray;

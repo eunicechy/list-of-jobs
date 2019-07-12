@@ -16,7 +16,7 @@ source: "https://my.wobbjobs.com/jobs"
 business_work.works.create(title:"Digital Marketing Manager",
 company: "Agensi Perkergaan Hays", description: "Performance Marketing and understanding digital marketing data", location: "Muar, Johor", link: "www.wobb.com.my")
 business_work.works.create(title:"Business Development Manager", company:"BD BHD", description: "Develop business model for the company", location:"Petaling Jaya, Selangor", link:"www.wobb.com.my")
-business_work.works.create(title:"Business Development Executive", company"BD BHD", description: "Executive for business development", location: "Kuala Lumpur", link: "www.wobb.com.my")
+business_work.works.create(title:"Business Development Executive", company:"BD BHD", description: "Executive for business development", location: "Kuala Lumpur", link: "www.wobb.com.my")
 business_work.works.create(title:"Finance and Operations Intern", company:"Operate Company", description:"Internship for fresh graduates", location: "Penang", link:"www.wobb.com.my")
 
 it_work= Field.create(

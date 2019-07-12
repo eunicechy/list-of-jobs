@@ -68,10 +68,10 @@ class App extends Component
             <Header as='h2'>{field.title}</Header>
             {field.description && <p>{field.description}</p>
             }
-            {field.jobs &&
+            {field.works &&
               <Segment.Group>
-                {field.jobs.map((job,i)=> <Segment key={i}>
-                    {job.title}
+                {field.works.map((work,i)=> <Segment key={i}>
+                    {work.title}
 
                 </Segment>
                 )}

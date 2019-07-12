@@ -1,0 +1,3 @@
+class WorksController < ApiController
+
+end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_05_042114) do
+ActiveRecord::Schema.define(version: 2019_07_12_015507) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -38,6 +38,15 @@ ActiveRecord::Schema.define(version: 2019_07_05_042114) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "drinks", force: :cascade do |t|
+    t.string "title"
+    t.string "description"
+    t.string "steps"
+    t.string "source"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "fields", force: :cascade do |t|
     t.string "title"
     t.string "description"
@@ -47,12 +56,36 @@ ActiveRecord::Schema.define(version: 2019_07_05_042114) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "job2s", force: :cascade do |t|
+    t.integer "field_id"
+    t.string "title"
+    t.string "company"
+    t.string "description"
+    t.string "location"
+    t.string "link"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["field_id"], name: "index_job2s_on_field_id"
+  end
+
   create_table "jobs", force: :cascade do |t|
     t.integer "field_id"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["field_id"], name: "index_jobs_on_field_id"
+  end
+
+  create_table "works", force: :cascade do |t|
+    t.integer "field_id"
+    t.string "title"
+    t.string "company"
+    t.string "description"
+    t.string "location"
+    t.string "link"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["field_id"], name: "index_works_on_field_id"
   end
 
 end

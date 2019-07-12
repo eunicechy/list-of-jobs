@@ -75,7 +75,7 @@ class App extends Component
                     <p style="color:aliceblue;">{work.company} </p>
                     <p>{work.description} </p>
                     <p>{work.location} </p>
-                    <a>{work.link} </p>
+                    <p>{work.link} </p>
 
                 </Segment>
                 )}

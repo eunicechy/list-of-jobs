@@ -11,7 +11,7 @@ class FieldsController < ApiController
   # GET /fields/id
   def show
     @fields= Field.find(params[:id])
-    render json: @field.to_json(:include =>{:works =>{:only=>[:id,:description,:title,:link]}})
+    render json: @field.to_json(:include =>{:works =>{:only=>[:id,:description,:title,:link, :company]}})
     end
   end
 

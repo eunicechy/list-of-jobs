@@ -8,6 +8,10 @@ body {
 a{
   background-color: dodgerblue;
   color: #F7F7F7;
+  padding: 14px 25px;
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 #company{
   color:cornflowerblue;

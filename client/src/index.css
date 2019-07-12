@@ -5,6 +5,12 @@ body {
 
 
 }
+#company{
+  color: cornflowerblue;
+}
+#descp{
+  color:gray;
+}
 
 #root{
   padding: 4rem 0;

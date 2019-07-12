@@ -71,11 +71,11 @@ class App extends Component
             {field.works &&
               <Segment.Group>
                 {field.works.map((work,i)=> <Segment key={i}>
-                    {work.title}
-                    <p>{work.company} </p>
+                    <h3>{work.title}</h3>
+                    <p>{work.company}</p>
                     <p>{work.description} </p>
                     <p>{work.location} </p>
-                    <p>{work.link} </p>
+                    <a href={work.link}>Apply</a>
 
                 </Segment>
                 )}

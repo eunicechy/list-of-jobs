@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1a0400-dcd4-47b1-be1b-7d425d5b05d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="8a1a0400-dcd4-47b1-be1b-7d425d5b05d4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="867" />
     <option name="y" value="12" />
     <option name="width" value="1035" />
@@ -270,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562819967911</updated>
       <workItem from="1562819978008" duration="18313000" />
-      <workItem from="1562896270831" duration="8879000" />
+      <workItem from="1562896270831" duration="9477000" />
     </task>
     <task id="LOCAL-00001" summary="updated job.rb">
       <created>1562842284502</created>
@@ -283,10 +281,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27192000" />
+    <option name="totallyTimeSpent" value="27790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="8" width="690" height="684" extended-state="0" />
+    <frame x="578" y="8" width="690" height="684" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25714287" />

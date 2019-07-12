@@ -5,13 +5,16 @@ body {
 
 
 }
-a{
+a:link, a:visited{
   background-color: dodgerblue;
   color: #F7F7F7;
   padding: 8px 18px;
   display:inline-block;
   text-align: center;
   text-decoration: none;
+}
+a:hover, a:active{
+  background-color: royalblue;
 }
 #company{
   color:cornflowerblue;

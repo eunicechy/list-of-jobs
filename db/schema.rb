@@ -71,6 +71,7 @@ ActiveRecord::Schema.define(version: 2019_07_12_015507) do
   create_table "jobs", force: :cascade do |t|
     t.integer "field_id"
     t.string "description"
+    t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["field_id"], name: "index_jobs_on_field_id"

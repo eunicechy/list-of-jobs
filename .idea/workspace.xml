@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1a0400-dcd4-47b1-be1b-7d425d5b05d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/fields_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/fields_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/field.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/field.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190705042114_create_jobs.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190705042114_create_jobs.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
@@ -60,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -108,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -148,7 +142,6 @@
         <option value="$PROJECT_DIR$/client/src/index.css" />
         <option value="$PROJECT_DIR$/app/admin/jobs.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/client/src/Home.js" />
         <option value="$PROJECT_DIR$/db/migrate/20190705042114_create_jobs.rb" />
         <option value="$USER_HOME$/list-of-jobs/.gitignore" />
         <option value="$USER_HOME$/list-of-jobs/app/controllers/application_controller.rb" />
@@ -156,13 +149,14 @@
         <option value="$PROJECT_DIR$/app/models/field.rb" />
         <option value="$PROJECT_DIR$/app/admin/works.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/controllers/fields_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/works_controller.rb" />
+        <option value="$PROJECT_DIR$/client/src/Home.js" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="867" />
     <option name="y" value="12" />
     <option name="width" value="1035" />
@@ -180,17 +174,6 @@
             <path>
               <item name="list-of-ingredients" type="b2602c69:ProjectViewProjectNode" />
               <item name="list-of-ingredients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="list-of-ingredients" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list-of-ingredients" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="list-of-ingredients" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list-of-ingredients" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="list-of-ingredients" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562819967911</updated>
       <workItem from="1562819978008" duration="18313000" />
-      <workItem from="1562896270831" duration="782000" />
+      <workItem from="1562896270831" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="updated job.rb">
       <created>1562842284502</created>
@@ -247,10 +230,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19095000" />
+    <option name="totallyTimeSpent" value="20181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="8" width="690" height="684" extended-state="0" />
+    <frame x="578" y="8" width="690" height="684" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25714287" />
@@ -412,20 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/fields_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -459,11 +428,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
